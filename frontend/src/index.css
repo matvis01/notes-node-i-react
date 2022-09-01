@@ -1,0 +1,69 @@
+body {
+  background-color: #003049;
+
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.addNote{
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  align-self: center;
+}
+
+.note{
+  background-color: #eae2b7;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 140px;
+}
+
+.note--buttons > button{
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.note--input > input{
+  width: 95%;
+  height: 30px;
+  margin: 4px;
+
+}
+
+.note--edit--buttons{
+  position:relative;
+  bottom: -25px;
+}
+
+.note--edit--buttons > button, .note--buttons > button{
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0px;
+  height: 25px;
+  width: 60px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.delete{
+  background-color: #d62828;
+
+}
+
+.edit{
+  background-color: #016da7;
+}
+
+.save{
+  background-color: #016da7;
+}
