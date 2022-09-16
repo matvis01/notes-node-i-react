@@ -2,16 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Note from './Note';
 import EditingNote from './EditingNote';
 import axios from 'axios';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  Code,
-  Flex,
-  Spacer,
-  Button,
-} from '@chakra-ui/react';
+import { Flex, Button } from '@chakra-ui/react';
 
 const api = axios.create({
   baseURL: 'http://localhost:5000/notes',

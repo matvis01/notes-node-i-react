@@ -22,7 +22,7 @@ export default function EditingNote(props) {
       mr="20px"
       minH="167px"
     >
-      <Box className="note--input">
+      <Box>
         <Input
           placeholder="Title"
           _placeholder={{ color: 'black' }}

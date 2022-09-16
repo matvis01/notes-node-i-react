@@ -12,7 +12,7 @@ export default function Note(props) {
       mr="20px"
       minH="140px"
     >
-      <Box className="note--content">
+      <Box>
         <Heading color="black" mb="10px">
           {props.note.title}
         </Heading>
